@@ -18,10 +18,10 @@ Go to Firebase.com and create a project. Once the project is created:
   5. Add this code to the index.html file in the public folder in the project and save the file
 
 After adding your firebase credentials, open a terminal window and run the following command (make sure you have docker installed an running):
-  1. *docker-compose up*
+  1. *'docker-compose up'*
 
 Then do the following:
-  1. Open another terminal window in the root folder of the project and run *docker images* to check if the containers are running
+  1. Open another terminal window in the root folder of the project and run *'docker images'* to check if the containers are running
   2. Go to your browser and navigate to *http://localhost:3000* to use the site
   3. If you want to see the database, download Robo 3T
   4. On startup, connect Robo 3T to port *localhost:27017* and you will be able to see all the users you create
